@@ -1,0 +1,103 @@
+.sidebar {
+  width: 260px;
+  min-height: 100vh;
+  background-color: #E8D5B7;
+  padding: 24px 0;
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.05);
+  transition: all 250ms ease-in-out;
+}
+
+.logo {
+  padding: 0 24px 32px;
+}
+
+.logo h1 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #2C3E50;
+  letter-spacing: -0.5px;
+}
+
+.nav {
+  padding: 0 12px;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.menuItem {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  padding: 12px 16px;
+  background: transparent;
+  border: none;
+  border-radius: 4px;
+  color: #2C3E50;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 150ms ease-in-out;
+  text-align: left;
+}
+
+.menuItem:hover {
+  background-color: #DCC9A7;
+}
+
+.menuItem.active {
+  background-color: #C9A961;
+  color: #FFFFFF;
+}
+
+.icon {
+  font-size: 20px;
+  flex-shrink: 0;
+}
+
+/* 반응형 */
+@media (max-width: 1199px) {
+  .sidebar {
+    width: 220px;
+  }
+
+  .logo h1 {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 767px) {
+  .sidebar {
+    width: 100%;
+    min-height: auto;
+    padding: 16px 0;
+  }
+
+  .logo {
+    padding: 0 16px 16px;
+  }
+
+  .logo h1 {
+    font-size: 24px;
+  }
+
+  .nav {
+    padding: 0 8px;
+  }
+
+  .menu {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .menuItem {
+    flex: 1 1 auto;
+    min-width: 120px;
+    justify-content: center;
+  }
+}
