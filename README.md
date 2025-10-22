@@ -1,7 +1,5 @@
 # Keep - 노트 관리 애플리케이션
 
-중후하고 전문적인 디자인의 React 기반 노트 관리 애플리케이션입니다.
-
 ![React](https://img.shields.io/badge/React-18.2.0-61DAFB?logo=react)
 ![Vite](https://img.shields.io/badge/Vite-5.0-646CFF?logo=vite)
 ![License](https://img.shields.io/badge/License-MIT-green)
@@ -49,8 +47,6 @@ Google Keep에서 영감을 받아 제작되었으며, 중후하고 전문적인
 - **LocalStorage** - 데이터 영속성
 
 ## 디자인 컨셉
-
-### 중후하고 전문적인 느낌
 
 **컬러 팔레트:**
 - Primary: #2C3E50 (다크 블루그레이) - 전문적이고 신뢰감
